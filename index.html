@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stage 0 Project by Fausto</title>
+</head>
+
+<body>
+
+    <h1>
+        <span style="font-size: 0.6em; font-weight: normal">Fausto's Notes on: </span>
+        Getting Started with HTML (Stage-0)
+    <h1>
+
+    <h2>Main Concepts</h2>
+
+    <h3>The Web</h3>
+    <p>
+        The web is essentially a collection of documents. Most of these documents are HTML documents (but there are also PDFs, image files, etc). A user uses a <strong>web browser</strong> on his or her computer to view the Internet. In order to do this, the user's computer must send a request with <strong>HTTP</strong> (hypertext transfer protocol) to <strong>servers</strong> which store the HTML pages. The Internet is just a collection of many servers connected together, interpreted through a web browser.
+    </p>
+
+    <p>Some definitions:</p>
+    <ul>
+        <li>
+            <em>HTML(Hyper Text Markup Language)</em> is the main type of document on the Web, and it is the language used to structure sites for the browsers,
+        </li>
+        <li>
+            <em>HTTP(Hyper Text Transfer Protocol)</em> is the main protocol of the web,
+        </li>
+        <li>
+            <em>Servers</em> are computers/machines that serve information to a client (usually a requester browser),
+        </li>
+        <li>
+            <em>Clients and Browsers</em> are usually software that request information on a server and display the response in a meaningful way to the user.
+        </li>
+    </ul>
+
+    <h3>HTML file structure</h3>
+    <p>
+        As markup languages go, the most basic unit on HTML the <em>tag</em>. To define a tag a word is surrounded by angle brackets (eg. &lt;word&gt;). Most tags have an opening tag and a closing tag, but that is not mandatory and a closing tag has a forward slash after the first bracket (eg. &lt;/word&gt;). Some tags have prorieties known as an <em>attributes</em>. For example, the anchor tag (&lt;a&gt;), used to create links (<a href="http://www.udacity.com">click here to go to Udacity website</a>), has the <em>href</em> that indicates the hyperlink reference on the anchor for the user action.
+    </p>
+
+    <p>
+        Tags can have more than one attribute. Let's take the <strong>a</strong> tag, used for creating a linking must have a <em>href</em> attribute and also <em>target</em> attribute to change the behavior on how to get to the anchor reference.
+    </p>
+
+    <p>
+        Some tags do not need closing tags. The <strong>img</strong> tag is also known as a void tag because there is no content and therefore does not need closing tags, also is very common on newer HTML a notation as a self-closed with a slash at the end of the openning tag like: &lt;img <em>attributes</em> /&gt;.
+    </p>
+
+    <h3>Display of elements</h3>
+    <p>
+        There are two main display intrinsic to the HTML elements inline and block display (also reffered as inline and block tags)
+    </p>
+
+    <p>
+        <em>Inline tags</em> are tags which occur within a text and do not disrupt the text structure. Many common tags are inline tags such as image: <strong>img</strong>, emphasis: <em>em</em>, bold: <b>b</b> and the span: <strong>span</strong>.
+    </p>
+
+    <p>
+        On the other hand, a <em>block tag</em>, is one that sections off an entire section of text, creaking an invisible "box" around an element. The most common block tags are the <strong>p</strong> and the <b>div</b> tags.
+    </p>
+
+    <p>
+        The difference between inline and block tags can be illustrated by comparing the <strong>span</strong> and <strong>div</strong> tags. Both tags are known as container tags as they surround an element to share attributes with children elements. However, <strong>span</strong> is an inline tag, existing within a line, while <strong>div</strong> is a block tag, creating a "box" or block around an element (<a href="https://www.youtube.com/watch?v=bOh9WjucNsA">udacity video on inline and block display</a>).
+    </p>
+
+</body>
+</html>
